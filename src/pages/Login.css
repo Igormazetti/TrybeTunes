@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px
+}
+
+.trybe-tunes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-right: 5%;
+  height: 100px;
+  width: 170px;
+  background-image: url(../images/logo.svg);
+}
+
+#loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input {
+  width: 385px;
+  height: 25px;
+  padding: 5px;
+}
+
+#entrar {
+  color: white;
+  background-color: #003BE5;
+  width: 515px;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#entrar:disabled {
+  opacity: 0.5;
+}

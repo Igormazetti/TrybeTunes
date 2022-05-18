@@ -1,0 +1,32 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 450px;
+  margin-left: 5%;
+
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(126, 184, 169, 0.5);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(240, 239, 239, 0.3);
+}
+
+.music-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  max-width: 450px;
+  height: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.favorite-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  max-width: 100px;
+}

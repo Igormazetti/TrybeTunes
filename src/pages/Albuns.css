@@ -1,0 +1,61 @@
+.albuns-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+img {
+  width: 130px;
+}
+
+.albuns-result {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  max-width: 450px;
+  height: 150px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(179, 208, 209, 0.5);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(240, 239, 239, 0.3);
+}
+
+#acesso {
+  margin-top: 10px;
+  height: 20px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(241, 241, 241, 0.5);
+}
+
+.musics-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+.album-info {
+  width: 200px;
+  margin: 20px 45% 10px;
+}
+
+.not-found {
+  width: 250px;
+  margin-left: 600px;
+  margin-top: -50px;
+}
+
+.favorite-songs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+  margin-left: 5%;
+}
