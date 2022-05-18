@@ -24,7 +24,7 @@ Desenvolvi este projeto utilizando componentes de classe, trabalhando com estado
 além do consumo de API.
 
 Não utilizei nenhum gerenciador de estados, pois o intuito era perceber a dificuldade gerada
-no projeto sem a utilização de Redux ou outro gerenciador de estado.
+no projeto para compartilhar informações com diversos componentes sem a utilização do Redux.
 
 ## Como rodar o projeto:
 
